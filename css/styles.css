@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-default {
+  background-color: #8a8a8a;
+  border-radius: 0;
+  border: 0;
+}
+
+/** HEADER **/
+h1 {
+  line-height: 2.5em;
+  font-size: 28px;
+  margin: 0;
+  padding-left: 4%;
+}
+
+h1,h2,h3 {
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.head {
+  color: #000000;
+  text-decoration: none;
+}
+
+.grey {
+  background-color: #8a8a8a;
+/*  padding: 3%;*/
+}
+
+.newMarginTop {
+  margin-top: 20px;
+}
+
+p {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/**Margin reset in tablet width **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+    position: relative;
+  }
+  
+  .navbar-toggle {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+     color: #000000; 
+  }
+  
+  .navbar-default .navbar-nav>li>a:hover {
+    font-weight: 600;
+  }
+}
